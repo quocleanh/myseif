@@ -3661,10 +3661,6 @@ input:-internal-autofill-selected {
   border-radius: 4px 0px 0px 4px;
 }
 a.logo {
-  color: #000;
-  font-family: inherit;
-  font-style: unset;
-  text-decoration: none;
-  border: none;
-  shape-rendering: geometricprecision;
+  color: black !important;
+  text-decoration: none !important;
 }
