@@ -27,7 +27,7 @@
 <!-- Custom Stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 <!-- Colors Css -->
-<link id="color-switcher" type="text/css" rel="stylesheet" href="index.html#" />
+<link id="color-switcher" type="text/css" rel="stylesheet" href="index-standard-menu.html#" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
@@ -48,41 +48,42 @@
 <div id="main-wrapper"> 
   
   <!-- Header -->
-  <header id="header" class="sticky-top"> 
+  <header id="header" class="sticky-top-slide"> 
     <!-- Navbar -->
-    <nav class="primary-menu navbar navbar-expand-none navbar-overlay navbar-overlay-dark bg-transparent border-bottom-0 text-5 fw-600">
-      <div class="container"> 
-        <!-- Logo --> 
-        <a class="logo" href="index.html" title="Callum"> <img src="https://harnishdesign.net/demo/html/callum/images/logo.png" alt="Callum"/> </a> 
-        <!-- Logo End -->
-        <div class="text-3 ms-auto me-2"><span class="text-4 me-2"><i class="fas fa-phone"></i></span>(060) 444 434 444</div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
-        <div id="header-nav" class="collapse navbar-collapse">
-          <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+    <nav class="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600">
+      <div class="container position-relative">
+        <div class="col-auto col-lg-2 d-inline-flex ps-lg-0"> 
+          <!-- Logo --> 
+          <a class="logo" href="index.html" title="Callum"> <img src="https://harnishdesign.net/demo/html/callum/images/logo.png" alt="Callum"/> </a> 
+          <!-- Logo End --> 
+        </div>
+        <div class="col col-lg-8 navbar-accordion px-0">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
+          <div id="header-nav" class="collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link smooth-scroll active" href="index.html#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" 	href="index.html#about">About Me</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#services">What I Do</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#resume">Resume</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#faq">FAQ</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#testimonial">Client Speak</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#contact">Contact Me</a></li>
-            </ul>
-            <ul class="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
-              <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="social-icons-linkedin"><a data-bs-toggle="tooltip" href="http://www.linkedin.com/" target="_blank" title="" data-bs-original-title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+			  <li class="nav-item"><a class="nav-link smooth-scroll active" href="index-standard-menu.html#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="index-standard-menu.html#about">About</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="index-standard-menu.html#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="index-standard-menu.html#resume">Resume</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="index-standard-menu.html#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="index-standard-menu.html#faq">FAQ</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="index-standard-menu.html#testimonial">Client</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="index-standard-menu.html#contact">Contact</a></li>
             </ul>
           </div>
+        </div>
+        <div class="col-auto col-lg-2 d-flex justify-content-end ps-0">
+		  <ul class="social-icons">
+		  <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
+          <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+		  <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+          </ul>
         </div>
       </div>
     </nav>
     <!-- Navbar End --> 
   </header>
-  <!-- Header End --> 
+  <!-- Header End -->
   
   <!-- Content
   ============================================= -->
@@ -90,10 +91,10 @@
     
     <!-- Intro
     ============================================= -->
-    <section id="home" class="bg-primary d-flex fullscreen position-relative py-5">
-      <div class="container my-auto py-4">
-        <div class="row">
-          <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn">
+    <section id="home" class="bg-primary d-flex fullscreen-with-header position-relative">
+      <div class="container my-auto py-5 py-lg-0">
+        <div class="row py-4">
+          <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0">
             <h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
             <div class="typed-strings">
               <p>Designer</p>
@@ -102,14 +103,13 @@
             </div>
             <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed"></span></h2>
             <p class="text-5">based in Los Angeles, USA.</p>
-            <a href="index.html#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="index.html#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>
-		  </div>
+            <a href="index-standard-menu.html#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="index-standard-menu.html#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a> </div>
           <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
             <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn"> <img class="img-fluid rounded-pill d-block" src="https://harnishdesign.net/demo/html/callum/images/web-developer.jpg" title="I'm Callum" alt=""></div>
           </div>
         </div>
       </div>
-      <a href="index.html#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a> </section>
+      <a href="index-standard-menu.html#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a> </section>
     <!-- Intro end --> 
     
     <!-- About
@@ -140,7 +140,7 @@
           </div>
           <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p class="text-muted fw-500 mb-0">Email:</p>
-            <p class="text-4 fw-600 mb-0"><a class="link-dark" href="index.html">chat@callum.com</a></p>
+            <p class="text-4 fw-600 mb-0"><a class="link-dark" href="index-standard-menu.html">chat@callum.com</a></p>
           </div>
           <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
             <p class="text-muted fw-500 mb-0">Date of birth:</p>
@@ -290,7 +290,7 @@
             </div>
           </div>
         </div>
-        <p class="text-center mt-5 wow fadeInUp"><a href="index.html#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
+        <p class="text-center mt-5 wow fadeInUp"><a href="index-standard-menu.html#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
       </div>
     </section>
     <!-- Resume end --> 
@@ -306,11 +306,11 @@
         
         <!-- Filter Menu -->
         <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp">
-          <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active" href="index.html">All</a></li>
-          <li class="nav-item"> <a data-filter=".detailed" href="index.html" class="nav-link rounded-0">Detailed</a></li>
-          <li class="nav-item"> <a data-filter=".mockups" href="index.html" class="nav-link rounded-0">Mockups</a></li>
-          <li class="nav-item"> <a data-filter=".youtube" href="index.html" class="nav-link rounded-0">YouTube Videos</a></li>
-          <li class="nav-item"> <a data-filter=".vimeo" href="index.html" class="nav-link rounded-0">Vimeo Videos</a></li>
+          <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active" href="index-standard-menu.html">All</a></li>
+          <li class="nav-item"> <a data-filter=".detailed" href="index-standard-menu.html" class="nav-link rounded-0">Detailed</a></li>
+          <li class="nav-item"> <a data-filter=".mockups" href="index-standard-menu.html" class="nav-link rounded-0">Mockups</a></li>
+          <li class="nav-item"> <a data-filter=".youtube" href="index-standard-menu.html" class="nav-link rounded-0">YouTube Videos</a></li>
+          <li class="nav-item"> <a data-filter=".vimeo" href="index-standard-menu.html" class="nav-link rounded-0">Vimeo Videos</a></li>
         </ul>
         <!-- Filter Menu end -->
         <div class="portfolio wow fadeInUp">
@@ -402,7 +402,7 @@
         <div class="hero-content section">
           <div class="container text-center py-5 wow fadeInUp">
             <h2 class="text-10 fw-600 text-white mb-5">Interested in working with me?</h2>
-            <a href="index.html#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s">Hire Me!</a> </div>
+            <a href="index-standard-menu.html#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s">Hire Me!</a> </div>
         </div>
       </div>
     </section>
@@ -561,7 +561,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 text-center text-lg-start wow fadeInUp">
-          <p class="mb-2 mb-lg-0">Copyright © 2021 <a class="fw-600" href="index.html#">Callum</a>. All Rights Reserved.</p>
+          <p class="mb-2 mb-lg-0">Copyright © 2021 <a class="fw-600" href="index-standard-menu.html#">Callum</a>. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 wow fadeInUp">
           <p class="mb-0 text-center text-lg-end">Designed by <a class="fw-600" href="http://www.harnishdesign.net/">Harnish Design</a></p>
@@ -604,7 +604,7 @@
 <!-- Appear --> 
 <script src="https://harnishdesign.net/demo/html/callum/vendor/jquery.appear/jquery.appear.min.js"></script> 
 <!-- WOW animation --> 
-<script src="https://harnishdesign.net/demo/html/callum/vendor/wow/wow.min.js"></script> 
+<script src="https://harnishdesign.net/demo/html/callum/vendor/wow/wow.min.js"></script>
 <!-- Images Loaded --> 
 <script src="https://harnishdesign.net/demo/html/callum/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> 
 <!-- Typed --> 
